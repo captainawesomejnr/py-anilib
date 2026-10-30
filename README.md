@@ -1,2 +1,2 @@
 # py-anilib
-Simple Python animation text library 
+Simple Python text animation library 
