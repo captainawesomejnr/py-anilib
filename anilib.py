@@ -15,7 +15,7 @@ class app:
                 print(f"Loading {name}...", end=" ")
             for percent in range(0,100):
                 print(f"{str(percent)}%")
-                time.sleep(delay)
+                time.sleep(duration)
                 todel = len(f"{str(percent)}%")
                 for i in range(0,todel):
                     print("\x1b[P", end="")
