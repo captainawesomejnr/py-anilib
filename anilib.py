@@ -1,13 +1,13 @@
 import time
 
-class text:
+class Text:
     def typewriter(text, duration, trailing = "\n"):
         for char in text:
           print(char, end = "")
         print("", end = trailing)
 
-class app:
-    class load:
+class App:
+    class Load:
         def fakeLoad(duration, name=None):
             if name == None:
                 print("Loading...", end=" ")
